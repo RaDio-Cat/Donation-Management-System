@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>admin</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+        <!-- <link href="css/style.css" rel="stylesheet"> -->
+    </head>
+    <body>
+      <div>
+        <span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8SOMlWfrSj870PsMDhB0wasXN3rtZhKswwKKu20NfI0usyTuMDDXX3ivlTRGpstUK5jg&usqp=CAU" alt="NIB Logo"
+            style="width: 100px; height: 110px;">
+            <strong>NIB Gift Table</strong></span> 
+    </div>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="dashboard-tab" data-bs-toggle="tab" data-bs-target="#dashboard-tab-pane" type="button" role="tab" aria-controls="dashboard-tab-pane" aria-selected="true">Dashboard</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="upcoming-tab" data-bs-toggle="tab" data-bs-target="#upcoming-tab-pane" type="button" role="tab" aria-controls="upcoming-tab-pane" aria-selected="false">Upcoming Events</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="past-tab" data-bs-toggle="tab" data-bs-target="#past-tab-pane" type="button" role="tab" aria-controls="past-tab-pane" aria-selected="false">Past Events</button>
+            </li>
+            
+          </ul>
+          <div class="tab-content" id="myTabContent" style="padding-top: 30px ;">
+            <div class="tab-pane fade show active" id="dashboard-tab-pane" role="tabpanel" aria-labelledby="dashboard-tab" tabindex="0">
+
+              <div class="container text-center">
+                <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                  <div class="col">
+                    <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+                      <div class="card-body">
+                        <p class="card-title">Total No of Donations Received</p>
+                        <h5 class="card-text">120</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+                      <div class="card-body">
+                        <p class="card-title">Total No of Donations Recieved Today</p>
+                        <h5 class="card-text">0</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+                      <div class="card-body">
+                        <p class="card-title">Total Donations in GHS</p>
+                        <h5 class="card-text">GHC 111,320.00</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+                      <div class="card-body">
+                        <p class="card-title">Total Donation Today in GHC</p>
+                        <h5 class="card-text">120</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+                      <div class="card-body">
+                        <p class="card-title">Highest Contribution Received in GHS</p>
+                        <h5 class="card-text">120</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+                      <div class="card-body">
+                        <p class="card-title">Highest Contribution Received Today in GHC</p>
+                        <h5 class="card-text">120</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+                      <div class="card-body">
+                        <p class="card-title">Total Donation in USD</p>
+                        <h5 class="card-text">120</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+                      <div class="card-body">
+                        <p class="card-title">Total Donation Today in USD</p>
+                        <h5 class="card-text">120</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+                      <div class="card-body">
+                        <p class="card-title">Total Donation in EUR</p>
+                        <h5 class="card-text">120</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+                      <div class="card-body">
+                        <p class="card-title">Total Donations Today in EUR</p>
+                        <h5 class="card-text">120</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <button type="button" class="btn btn-success"><a href="bhallform.html" class="text-light">Create event</a></button>
+                </div>
+              </div>
+              
+            </div>
+            <div class="tab-pane fade" id="upcoming-tab-pane" role="tabpanel" aria-labelledby="upcoming-tab" tabindex="0">
+                <div class="container-lg" style="margin-top: 30px;">
+                <table class="table table-striped">
+                    <thead style="background-color: lightblue;">
+                        <tr>
+                          <th scope="col"> Event #</th>
+                          <th scope="col">Event Name</th>
+                          <th scope="col">Opening Date</th>
+                          <th scope="col">Closing Date</th>
+                          <th scope="col">Operations</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                          <td>
+                            <button type="button" class="btn btn-primary btn-sm">Manage</button>
+                            <button type="button" class="btn btn-danger btn-sm">Cancel</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td colspan="2">Larry the Bird</td>
+                          <td>@twitter</td>
+                        </tr>
+                      </tbody>
+                  </table>
+                  
+                <button type="button" class="btn btn-success"><a href="bhallform.html" class="text-light">Create event</a></button>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="past-tab-pane" role="tabpanel" aria-labelledby="past-tab" tabindex="0">
+              <div class="container-lg" style="margin-top: 30px;">
+                <table class="table table-striped">
+                    <thead style="background-color: lightblue;">
+                        <tr>
+                          <th scope="col">Event #</th>
+                          <th scope="col">Event Name</th>
+                          <th scope="col">Opening Date</th>
+                          <th scope="col">Closing Date</th>
+                          <th scope="col">Operations</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Agya Akwa @60</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                          <td>
+                            <button type="button" class="btn btn-info btn-sm">Details</button>
+                            <button type="button" class="btn btn-secondary btn-sm">Donation list</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td colspan="2">Larry the Bird</td>
+                          <td>@twitter</td>
+                        </tr>
+                      </tbody>
+                  </table>
+                  
+                <button type="button" class="btn btn-success"><a href="bhallform.html" class="text-light">Create event</a></button>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
+          </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+</html>
